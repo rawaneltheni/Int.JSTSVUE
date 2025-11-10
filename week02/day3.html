@@ -1,0 +1,68 @@
+<!-- 💻 Exercise 3: Build a Counter Component -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://unpkg.com/vue@3/dist/vue.global.prod.js"></script>
+</head>
+
+<body>
+
+    <!-- <template>      
+        <div class="counter">
+            <h2>Counter: {{ count }}</h2>
+            <button @click="increment">+</button>
+            <button @click="decrement">-</button>
+            <button @click="reset">Reset</button>
+            <p>Double: {{ doubleCount }}</p>
+            <p>Is even: {{ isEven }}</p>
+        </div>
+    </template>
+
+<script lang="ts">
+import { defineComponent, ref, computed } from 'vue';
+
+export default defineComponent({
+    name: 'CounterComponent',
+    setup() {
+        // Implement counter logic with TypeScript
+        const count = ref<number>(0);
+
+        const doubleCount = computed(() => count.value * 2);
+        const isEven = computed(() => count.value % 2 === 0);
+
+        const increment = () => count.value++;
+        const decrement = () => count.value--;
+        const reset = () => count.value = 0;
+
+        return {
+            count,
+            doubleCount,
+            isEven,
+            increment,
+            decrement,
+            reset
+        };
+    }
+});
+</script>
+
+<style scoped>
+    .counter {
+        text-align: center;
+        padding: 20px;
+    }
+
+    button {
+        margin: 0 5px;
+        padding: 8px 16px;
+        cursor: pointer;
+    }
+</style> -->
+
+<!-- <script src="exercise3.js"></script> -->
+</body>
+</html>

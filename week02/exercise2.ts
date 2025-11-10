@@ -24,16 +24,16 @@ enum orderStatus {
 }
 
 // 5. Build a typed shopping cart system
+interface CartItem<T> {
+    product: T;
+    quantity: number;
+    total: number;
+}
 interface ShoppingCart<T> {
     items: CartItem<T>[];
     total: number;
     addItem: (product: T, quantity: number) => void;
     removeItem: (productId: string) => void;
-}
-
-interface CartItem<T> {
-    product: T;
-    quantity: number;
 }
 
 
