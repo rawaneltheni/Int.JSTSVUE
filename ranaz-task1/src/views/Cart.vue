@@ -1,4 +1,5 @@
 <template>
+    <!-- gg -->
     <!-- <Header :header="`${name}'s Shopping Cart`"></Header> -->
     <Header header="Shopping Cart"></Header>
 
@@ -15,7 +16,6 @@ export default {
             name
         }
     }
-
 }
 </script>
 
